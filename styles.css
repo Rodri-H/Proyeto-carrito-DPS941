@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0 0 20px 0;
+  }
+  
+  /* Contenedor principal */
+  section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* Lista de productos */
+  #lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .producto button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: #218838;
+  }
+  
+  /* Carrito de compras */
+  #lista-carrito {
+    margin-top: 10px;
+  }
+  
+  #carrito button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #carrito button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Factura */
+  #factura {
+    text-align: center;
+  }
+  
+  #seguir-comprando {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #seguir-comprando:hover {
+    background-color: #0056b3;
+  }
+  
